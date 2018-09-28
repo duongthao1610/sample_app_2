@@ -1,11 +1,10 @@
-<% provide :title, (t ".about_title")  %>
+<% provide :title, t(".about_title") %>
 <h1><%= t ".about" %></h1>
 <p>
-  <%= t ".the" %> <a href="http://www.railstutorial.org/">
-  <em> <%= t ".ror_tutorial" %></em></a> <%= t ".is_a" %>
-  <a href="http://www.railstutorial.org/book"><%= t ".book" %></a> <%= t ".and_to_teach" %>
-  <a href="http://screencasts.railstutorial.org/"> <%= t ".screencast_series" %></a>
-  <a href="http://rubyonrails.org/"><%= t ".ruby_on" %></a>.
+  <%= t ".the" %> <em><%= link_to t(".ror_tutorial"), "http://www.railstutorial.org/" %></em>
+  <%= link_to t(".book"), "http://www.railstutorial.org/book" %><%= t(".and_to_teach") %>
+  <%= link_to t(".screencast_series"), "http://screencasts.railstutorial.org/" %>
+  <%= link_to t(".ruby_on"), "http://rubyonrails.org/" %>
   <%= t ".this_is" %>
 </p>
 
