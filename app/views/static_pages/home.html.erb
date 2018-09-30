@@ -3,7 +3,7 @@
   <h1><%= t ".welcome" %></h1>
   <h2>
     <%= t ".this_is" %>
-    <a href="http://www.railstutorial.org/"><%= t ".ruby_on" %></a>
+    <%= link_to t(".ruby_on"), "http://www.railstutorial.org/" %>
     <%= t ".samapp" %>
   </h2>
   <%= link_to t(".sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
