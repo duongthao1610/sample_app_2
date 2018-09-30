@@ -2,10 +2,12 @@ en:
   static_pages:
     home:
       home_title: "Home"
+      welcome: "Welcome to the Sample App"
       sample_app: "Sample App"
       this_is: "This is the home page for the"
       ruby_on: "Ruby on rails Tutorials"
       samapp: "sample application."
+      sign_up_now: "Sign up now!"
     help:
       help_title: "Help"
       help: "Help"
@@ -25,9 +27,35 @@ en:
       book: "book"
       screencast_series: "screencast series"
       and_to_teach: "and to teach web development with"
-      this_is: "This is the sample application for the tutorial."
+      this_is: ".This is the sample application for the tutorial."
+    contact:
+      contact_title: "Contact"
+      contact: "Contact"
+      contact_at: "Contact the Ruby on Rails Tutorials about the sample app at the:"
+      contact_page: "Contact page"
 
   layouts:
     application:
-      ror_tutorial: "| Ruby on Rails Tutorial Sample App"
+      ror_tutorial: "Ruby on Rails Tutorial Sample App"
+    footer:
+      ror_tutorial: "Ruby on Rails Tutorial"
+      the: "The"
+      by: "by"
+      author: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      new: "New"
+    header:
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+
+  users:
+    new:
+      sign_up: "Sign up"
+      this_will_be: "This will be a signup page for new users."
+      signup_title: "Sign up"
+
+  application_helper:
+    ror_tutorial: "Ruby on Rails turotial Sample App"
 
