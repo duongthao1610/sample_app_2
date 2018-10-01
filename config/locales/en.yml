@@ -53,6 +53,12 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      user: "Users"
+      sample_app: "Sample app"
+      profile: "Profile"
+      log_out: "Log out"
+      account: "Account"
+      settings: "Settings"
 
   shared:
     error_messages:
@@ -72,3 +78,12 @@ en:
     show:
       user_not_found: "User not found!"
 
+  sessions:
+    new:
+      login_title: "Login"
+      login: "Login"
+      log_in: "Log in"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+    create:
+      require_login: "Invalid email/password combination"
