@@ -85,5 +85,6 @@ en:
       log_in: "Log in"
       new_user: "New user?"
       sign_up_now: "Sign up now!"
+      remember_me: "Remember me on this computer"
     create:
       require_login: "Invalid email/password combination"
