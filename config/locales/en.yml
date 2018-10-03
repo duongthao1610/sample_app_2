@@ -1,5 +1,5 @@
 en:
-
+  
   application_helper:
     ror_tutorial: "Ruby on Rails turotial Sample App"
 
@@ -66,6 +66,7 @@ en:
       error: "error"
 
   users:
+    please_login: "Please log in."
     new:
       sign_up: "Sign up"
       signup_title: "Sign up"
@@ -77,6 +78,23 @@ en:
       failed: "Account create failed, try again!"
     show:
       user_not_found: "User not found!"
+    edit:
+      edit_title: "Edit user"
+      update_profile: "Update your profile"
+      submit: "Save changes"
+      change: "Change"
+    update:
+      updated_success: "Profile updated"
+    index:
+      index_title: "All users"
+      all_user: "All users"
+    user:
+      del: "delete"
+      sure: "You sure?"
+      brick: "|"
+    destroy:
+      user_deleted: "User deleted!"
+      failed: "User delete failed!"
 
   sessions:
     new:
