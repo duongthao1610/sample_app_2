@@ -13,3 +13,6 @@ users_helper:
 users_view:
   gravatar_size: 50
   gravatar_link: "http://gravatar.com/emails"
+
+mailers:
+  from_email: <%= ENV["FROM_EMAIL"] %>
