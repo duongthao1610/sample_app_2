@@ -1,0 +1,108 @@
+vi:
+
+  application_helper:
+    ror_tutorial: "Hướng dẫn lập trình Ruby on rails: Sample app"
+
+  static_pages:
+    home:
+      home_title: "Trang chủ"
+      welcome: "Chào mừng đến với Sample app"
+      sample_app: "Sample App"
+      this_is: "Đây là trang chủ cho "
+      ruby_on: "tài liệu hướng dẫn ruby on rails"
+      samapp: "ứng dụng sample."
+      sign_up_now: "Đăng kí ngay!"
+    help:
+      help_title: "Trợ giúp"
+      help: "Trợ giúp"
+      get_help_on: "Hỗ trợ tài liệu hướng dẫn Ruby on rails tại"
+      rails_tutorial: "Tài liệu hướng dẫn ROR phần hỗ trợ"
+      get_help_sample_app: "Để đưọc hỗ trợ về sample app, xem tại: "
+      ruby_on: "tài liệu hướng dẫn ROR"
+      book: "sách"
+    about:
+      about_title: "Về chúng tôi"
+      about: "Về chúng tôi"
+      the: " "
+      ror_tutorial: "Hướng dẫn Ruby on rails"
+      ruby_on: "Ruby on Rails"
+      tutorial: "Hướng dẫn"
+      is_a: "là một"
+      book: "cuốn sách"
+      screencast_series: "loạt hiển thị"
+      and_to_teach: "và dạy lập trình viên web với"
+      this_is: ".Đây là ứng dụng mẫu trong tài liệu hướng dẫn."
+    contact:
+      contact_title: "Liên hệ"
+      contact: "Liên hệ"
+      contact_at: "Liên hệ hướng dẫn ROR với sample app tại:"
+      contact_page: "Trang liên hệ"
+
+  layouts:
+    application:
+      ror_tutorial: "Hướng dẫn ROR: sample app"
+    footer:
+      ror_tutorial: "Hướng dẫn Ruby on rails"
+      the: " "
+      by: "bởi"
+      author: "Michael Hartl"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      new: "Mới"
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng nhập"
+      user: "Người dùng"
+      sample_app: "Sample app"
+      profile: "Thông tin cá nhân"
+      log_out: "Đăng xuất"
+      account: "Tài khoản"
+      settings: "Cài đặt"
+
+  shared:
+    error_messages:
+      the_form: "Thông tin đã nhập gồm"
+      error: "error"
+
+  users:
+    please_login: "Vui lòng đăng nhập."
+    new:
+      sign_up: "Đăng kí"
+      signup_title: "Đăng kí"
+      this_will_be: "Đây là trang đăng kí cho người dùng mới."
+      confirm: "Xác nhận"
+      create: "Tạo tài khoản"
+    create:
+      welcome: "Chào mừng đến với Sample App!"
+      failed: "Tạo tài khoản không thành công, thử lại!"
+    show:
+      user_not_found: "Không tìm thấy người dùng!"
+    edit:
+      edit_title: "Sửa thông tin người dùng"
+      update_profile: "Cập nhật thông tin cá nhân"
+      submit: "Lưu"
+      change: "Thay đổi"
+    update:
+      updated_success: "Cập nhật thông tin cá nhân thành công!"
+    index:
+      index_title: "Danh sách người dùng"
+      all_user: "Danh sách người dùng"
+    user:
+      del: "xóa"
+      sure: "Bạn có chắc muốn xóa người dùng này?"
+      brick: "|"
+    destroy:
+      user_deleted: "Đã xóa!"
+      failed: "Xóa người dùng không thành công!"
+
+  sessions:
+    new:
+      login_title: "Đăng nhập"
+      login: "Đăng nhập"
+      log_in: "Đăng nhập"
+      new_user: "Chưa có tài khoản?"
+      sign_up_now: "Đăng kí!"
+      remember_me: "Ghi nhớ tài khoản đăng nhập"
+    create:
+      require_login: "email/ mật khẩu không hợp lệ!"

@@ -17,8 +17,12 @@ module SessionsHelper
       if user&.authenticated? cookies[:remember_token]
         log_in user
         @current_user = user 
-      end 
+      end
     end
+  end
+
+  def current_user? user
+    user == current_user
   end
 
   def logged_in?
@@ -35,5 +39,14 @@ module SessionsHelper
     forget_user current_user
     session.delete :user_id
     @current_user = nil
+  end
+
+  def redirect_back_or default
+    redirect_to(session[:forwarding_url] || default)
+    session.delete :forwarding_url
+  end
+
+  def store_location
+    session[:forwarding_url] = request.original_url if request.get?
   end
 end

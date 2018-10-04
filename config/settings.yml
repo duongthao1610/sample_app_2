@@ -3,3 +3,13 @@ user:
   max_name_size: 50
   max_email_size: 255
   mini_password: 6
+
+users_controller:
+  per_page: 20
+
+users_helper:
+  gravatar_size: 80
+
+users_view:
+  gravatar_size: 50
+  gravatar_link: "http://gravatar.com/emails"

@@ -8,6 +8,9 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true, length: {minimum: Settings.user.mini_password}
 
+  scope :select_user, -> {select :id, :email, :name}
+  scope :order_by_created, -> {order created_at: :desc}
+
   def User.digest string
     cost = ActiveModel::SecurePassword.min_cost ? bCrypt::Engine::MIN_COST : BCrypt::Engine.cost
     BCrypt::Password.create string, cost: cost

@@ -16,6 +16,9 @@ gem "bootstrap-sass", "3.3.7"
 gem "bcrypt", "3.1.12"
 gem "config"
 gem "jquery-rails"
+gem "ffaker"
+gem "kaminari"
+gem "bootstrap-kaminari-views"
 
 group :development, :test do
   gem "sqlite3", "1.3.13"
