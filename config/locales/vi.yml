@@ -104,6 +104,7 @@ vi:
       new_user: "Chưa có tài khoản?"
       sign_up_now: "Đăng kí!"
       remember_me: "Ghi nhớ tài khoản đăng nhập"
+      forgot_password: "(quên mật khẩu)"
     create:
       require_login: "email/ mật khẩu không hợp lệ!"
 
@@ -112,14 +113,34 @@ vi:
       acc_activate: "Tài khoản đã đưọc kích hoạt"
       invalid_active: "Lỗi đưòng dẫn kích hoạt tài khoản"
 
-  application_mailer:
+  mailers:
     user_mailer:
       subject: "Kích hoạt tài khoản"
       greeting: "xin chào"
       mail_to: "to@example.org"
 
   user_mailer:
-    sample_app: "Sample App"
-    hi: Xin chào"
-    welcome: "Chào mừng bạn đến với sample app, nhấp vào đưòng dẫn bên dưới để kích hoạt tài khoản:"
-    activate: "Kích hoạt"
+    account_activation:
+      sample_app: "Sample App"
+      hi: Xin chào"
+      welcome: "Chào mừng bạn đến với sample app, nhấp vào đưòng dẫn bên dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+    password_reset:
+      to_reset_your_password: "Để lấy lại mật khẩu click vào link dưới đây:"
+      this_link: "Đưòng dẫn sẽ mất sau hai giờ"
+      if_you: "Nếu bạn không muốn đặt lại mật khẩu, hãy bỏ qua email này"
+      password_reset: "Đặt lại mật khẩu"
+      reset_password: "Mật khẩu mới"
+
+  password_resets:
+    new:
+      password_reset_title: "Quên mật khẩu"
+      forgot_password: "Quên mật khẩu"
+      submit: "OK"
+    create:
+      email_sent: "Xem hướng dẫn đặt lại mật khẩu mới tại email"
+      email_not_found: "Email address not found"
+    update:
+      empty: "Mật khẩu không thể trống"
+      password_reset: "Mật khẩu đã đưọc đặt lại"
+      expired_password: "Hết thời gian có thể đặt lại mật khẩu."

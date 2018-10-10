@@ -3,6 +3,7 @@ user:
   max_name_size: 50
   max_email_size: 255
   mini_password: 6
+  reset_expired_time: 2
 
 users_controller:
   per_page: 20
