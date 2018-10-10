@@ -106,3 +106,20 @@ vi:
       remember_me: "Ghi nhớ tài khoản đăng nhập"
     create:
       require_login: "email/ mật khẩu không hợp lệ!"
+
+  account_activations:
+    edit:
+      acc_activate: "Tài khoản đã đưọc kích hoạt"
+      invalid_active: "Lỗi đưòng dẫn kích hoạt tài khoản"
+
+  application_mailer:
+    user_mailer:
+      subject: "Kích hoạt tài khoản"
+      greeting: "xin chào"
+      mail_to: "to@example.org"
+
+  user_mailer:
+    sample_app: "Sample App"
+    hi: Xin chào"
+    welcome: "Chào mừng bạn đến với sample app, nhấp vào đưòng dẫn bên dưới để kích hoạt tài khoản:"
+    activate: "Kích hoạt"

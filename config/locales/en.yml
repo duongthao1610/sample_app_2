@@ -1,5 +1,5 @@
 en:
-  
+
   application_helper:
     ror_tutorial: "Ruby on Rails turotial Sample App"
 
@@ -76,6 +76,7 @@ en:
     create:
       welcome: "Welcome to the Sample App!"
       failed: "Account create failed, try again!"
+      please_check: "Please check your email to activate your account."
     show:
       user_not_found: "User not found!"
     edit:
@@ -106,3 +107,21 @@ en:
       remember_me: "Remember me on this computer"
     create:
       require_login: "Invalid email/password combination"
+      message: "Account not activated. Check your email for the activation link."
+
+  account_activations:
+    edit:
+      acc_activate: "Account activated!"
+      invalid_active: "Invalid activation link"
+
+  application_mailer:
+    user_mailer:
+      subject: "Account activation"
+      greeting: "Hi"
+      mail_to: "to@example.org"
+
+  user_mailer:
+    sample_app: "Sample App"
+    hi: "Hi"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
