@@ -17,3 +17,14 @@ users_view:
 
 mailers:
   from_email: <%= ENV["FROM_EMAIL"] %>
+
+micropost:
+  max_content: 140
+  picture_size: 5
+  gravatar_sizem: 50
+
+shared:
+  user_gravatar_size: 50
+
+static_pages:
+  ror_link: "http://rubyonrails.org/"

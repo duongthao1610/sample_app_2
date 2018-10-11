@@ -12,6 +12,7 @@ en:
       ruby_on: "Ruby on rails Tutorials"
       samapp: "sample application."
       sign_up_now: "Sign up now!"
+      micro_feed: "Micropost feed"
     help:
       help_title: "Help"
       help: "Help"
@@ -64,6 +65,9 @@ en:
     error_messages:
       the_form: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
 
   users:
     please_login: "Please log in."
@@ -79,6 +83,7 @@ en:
       please_check: "Please check your email to activate your account."
     show:
       user_not_found: "User not found!"
+      micropost: "Micropost"
     edit:
       edit_title: "Edit user"
       update_profile: "Update your profile"
@@ -153,3 +158,25 @@ your password will stay as it is."
       empty: "can't be empty"
       password_reset: "Password has been reset"
       expired_password: "Password reset has expired."
+    sample_app: "Sample App"
+    hi: "Hi"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
+
+  application:
+    please_login: "Please log in."
+
+  micropost:
+    picture_size: "should be less than 5MB"
+
+  microposts:
+    destroy:
+      micropost_delete: "Micropost deleted"
+      delete_fail: "Delete fail!"
+    create:
+      micropost_create: "Micropost created!"
+    micropost:
+      you_sure: "You sure?"
+      delete: "delete"
+      posted: "Posted"
+      ago: "ago."
