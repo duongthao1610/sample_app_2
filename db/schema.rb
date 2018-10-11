@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_09_065955) do
+ActiveRecord::Schema.define(version: 2018_10_09_100639) do
 
   create_table "microposts", force: :cascade do |t|
     t.text "content"
